@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Game</title>
+    <link rel="stylesheet" href="Css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Lato -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo_content">
+          <div class="logo">
+            <i class="fa-solid fa-gamepad"></i>
+            <div class="logo_name">CodinGame</div>
+          </div>
+          <i class="fa-solid fa-bars" id="btn"></i>
+        </div>
+        <ul class="nav_list">
+          <li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search..." />
+            <span class="tooltip">Search</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-user"></i>
+              <span class="links_name">User</span>
+            </a>
+            <span class="tooltip">User</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              <span class="links_name">Options</span>
+            </a>
+            <span class="tooltip">Options</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-wide-short"></i>
+              <span class="links_name">Level</span>
+            </a>
+            <span class="tooltip">Level</span>
+          </li>
+        </ul>
+        <div class="profile_content">
+          <div class="profile">
+            <div class="profile_details">
+              <img src="Images/0-puss-in-boots.jpg" alt="" />
+              <div class="name_job">
+                <div class="name">Ali Mushrif</div>
+                <div class="job">Web Designer</div>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-from-bracket" id="log_out"></i>
+          </div>
+        </div>
+        <div class="theall">
+          <div class="rectanglecontainer">
+            <div class="infoRectangle">
+              <p><b id="name">Let's Start</b>.</p>
+            </div>
+            <div class="codeRectangle"></div>
+          </div>
+          <div class="pazzleContainer">
+            <div class="pazzle">
+              <div class="columnContanter">
+                <div class="calumn1">
+                  <h1>Column 1</h1>
+                  <p class="p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae ducimus aliquam nulla deleniti incidunt, quos natus
+                    ex sunt in molestiae fugit ab? Debitis, repellendus ut
+                    magnam earum est vel cupiditate soluta quos eveniet deserunt
+                    nemo ipsum at quis in dolorem. Quaerat nisi sequi
+                    dignissimos eaque dolores magni similique praesentium sed?
+                  </p>
+                </div>
+                <div class="calumn2">
+                  <h1>Column 2</h1>
+                  <p class="p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptates repellat delectus voluptas voluptatem ducimus
+                    sequi quos aliquam nesciunt esse expedita optio voluptate
+                    modi nostrum, doloribus et pariatur porro dolorem aspernatur
+                    illo nemo dignissimos unde debitis, similique eius. Quisquam
+                    voluptatum commodi, sunt quidem, iure perferendis sed et
+                    iusto, distinctio corporis corrupti.
+                  </p>
+                </div>
+                <div class="calumn3">
+                  <h1>Column 3</h1>
+                  <p class="p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis dicta doloribus mollitia eaque tempora, officiis
+                    nihil pariatur praesentium! Animi maxime, molestiae ducimus
+                    expedita nisi veritatis natus amet laboriosam cum mollitia
+                    minima, consectetur aut possimus? Minima labore sed ullam
+                    animi nam, impedit atque recusandae nulla quis et expedita
+                    sunt facere ipsa!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="Images/Final.svg" class="boy" alt="" />
+      <input type="button" onclick="changeText()" value="Next Level" id="ch" />
+      <form id="codeAnwsoer" action="" method="dialog">
+        <input type="text" maxlength="100" id="csscode" name="the-code" />
+        <input class="reg" type="submit" value="Run" />
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
